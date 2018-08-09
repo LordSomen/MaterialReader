@@ -24,7 +24,7 @@ tools:context="lordsomen.android.com.materialreader.activities.MainActivity">
 
 <!--the main layouts recyclerview-->
 <!--textview for showing error if loading of data in recyclerview fails-->
-<FrameLayout
+<android.support.design.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -80,5 +80,5 @@ tools:context="lordsomen.android.com.materialreader.activities.MainActivity">
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp" />
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
 </LinearLayout>

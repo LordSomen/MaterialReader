@@ -37,7 +37,6 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity implements ReaderAdapter.ReaderOnClickItemHandler {
     public final static String READER_DATA = "reader";
     public final static String POSITION = "position";
-
     private final static String TAG = MainActivity.class.getSimpleName();
     private static final String SAVED_ARRAYLIST = "saved_array_list";
     private static final String SAVED_LAYOUT_MANAGER = "layout-manager-state";
